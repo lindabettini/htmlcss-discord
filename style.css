@@ -38,21 +38,43 @@ img{
     border: 2px solid black;
 }
 
-/* Header */
-
+/* TOP Header */
 
 .top-header{
     height: 80px;
+    line-height: 80px;
 }
 
 .top-header.container{
     background-color: rgb(47,95,223);
 }
 
-/* Navigation Bar */
-
-.navigation-bar{
-    width: 800px;
+.header-bar{
+    width: 900px;
     margin: auto;
+}
+
+.header-bar .logo{
+    vertical-align: middle;
+}
+
+/* Top-Header's NAV */
+
+.header-bar nav{
+    text-align: center;
+}
+
+.header-bar nav li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header-bar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-bar nav li a:hover{
+    text-decoration: underline;
 }
 
