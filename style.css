@@ -78,19 +78,24 @@ a:hover{
 }
 
 .small-btn{
-    padding: 4px 15px;
-    border-radius: 14px;
+    padding: 5px 12px;
+    border-radius: 16px;
     display: inline;
 }
 
 .large-btn{
-    padding: 8px 25px;
-    border-radius: 25px;
+    padding: 10px 15px;
+    border-radius: 20px;
     display: inline;
 }
 
 a.light-btn{
     background-color: white;
+}
+
+.lightblue-btn{
+    background-color: rgb(142,161,225);
+    color:white;
 }
 
 a.dark-btn{
