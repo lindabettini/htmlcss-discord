@@ -164,6 +164,7 @@ a.dark-btn:hover{
 
 /* MAIN */
 
+/* Container Sizes */
 .left-col, .right-col{
     height: 100vh;
     line-height: 100vh;
@@ -174,6 +175,7 @@ a.dark-btn:hover{
     padding-top: 150px;
 }
 
+/* Images settings */
 .main-img{
     vertical-align: middle;
 }
@@ -192,6 +194,7 @@ a.dark-btn:hover{
     padding: 30px 0;
 }
 
+/* Texts Settings  */
 .main-text-box{
     width: 50%;
     position: absolute;
@@ -220,4 +223,17 @@ a.dark-btn:hover{
     line-height: normal;
     color: rgb(20, 20, 20);
 }
+
+#adventure{
+    height: 50px;
+    background-image: url(img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    text-align: center;
+}
+
+#adventure h3{
+    font-size: 25px;
+    padding: 30px;
 }
