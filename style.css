@@ -150,7 +150,7 @@ a.dark-btn:hover{
 }
 
 .jumbotron .header-text p{
-    margin: 25px 0;
+    margin: 40px 0;
     line-height: 25px;
 }
 
@@ -181,6 +181,7 @@ a.dark-btn:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: normal;
+    color: rgb(20, 20, 20);
 }
 
 .pos-relative{
