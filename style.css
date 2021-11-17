@@ -64,7 +64,6 @@ img{
     background-color: white;
 }
 
-
 /* TOP Header */
 
 .top-bar{
@@ -100,10 +99,23 @@ img{
 
 /* Jumbotron  */
 
- .jumbotron .container{
-     height: 400px;
-     background-image: url(img/jumbo.png);
-     background-position: center;
-     background-size: cover;
-     background-repeat: no-repeat;
- }
+.jumbotron{
+    position: relative;
+}
+
+.jumbotron .container{
+    height: 400px;
+    background-image: url(img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbotron .header-text{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
