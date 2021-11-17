@@ -129,7 +129,7 @@ a.dark-btn{
 }
 
 .jumbotron .header-text{
-    width: 40%;
+    width: 45%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -140,4 +140,8 @@ a.dark-btn{
 .jumbotron .header-text p{
     margin: 25px 0;
     line-height: 25px;
+}
+
+.jumbotron a{
+    margin: 0 10px;
 }
