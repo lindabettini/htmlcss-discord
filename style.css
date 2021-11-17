@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;
+    font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
 }
 
 img{
@@ -20,10 +20,15 @@ img{
     float: left;
 }
 
-.clearfix{
+.clearfix::after{
     display: table;
     content: '';
     clear: both;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .w20{
@@ -64,37 +69,35 @@ img{
 
 /* TOP Header */
 
-.top-header{
+.top-bar{
     height: 80px;
     line-height: 80px;
-}
-
-.top-header.container{
     background-color: rgb(47,95,223);
 }
 
-.header-bar{
-    width: 900px;
-    margin: auto;
+.bar-row{
+    max-width: 1000px;
+    margin: 0 auto;    
 }
 
-.header-bar .logo{
+.top-bar .logo{
     vertical-align: middle;
 }
 
 /* Top-Header's NAV */
 
-.header-bar nav li{
+.top-bar nav li{
     display: inline;
     margin: 0 10px;
 }
 
-.header-bar nav li a{
+.top-bar nav li a{
     text-decoration: none;
     color: white;
 }
 
-.header-bar nav li a:hover{
+.top-bar nav li a:hover{
     text-decoration: underline;
 }
 
+/* Jumbotron  */
