@@ -31,6 +31,10 @@ img{
     margin: 0 auto;
 }
 
+.pos-relative{
+    position: relative;
+}
+
 .w20{
     width: 20%;
     height: 60px;
@@ -165,6 +169,11 @@ a.dark-btn:hover{
     line-height: 100vh;
 }
 
+.fullpage{
+    height: 100vh;
+    padding-top: 150px;
+}
+
 .main-img{
     vertical-align: middle;
 }
@@ -179,6 +188,10 @@ a.dark-btn:hover{
     left: 0;
 }
 
+.big-img-cont{
+    padding: 30px 0;
+}
+
 .main-text-box{
     width: 50%;
     position: absolute;
@@ -189,16 +202,22 @@ a.dark-btn:hover{
     color: rgb(20, 20, 20);
 }
 
-.pos-relative{
-    position: relative;
-}
-
-.main-text-box h2{
+.main-text-box h2, .main-text-fullpage h2{
     font-size: 32px;
     line-height: 35px;
     font-weight: 800;
 }
 
-.main-text-box p{
-    margin: 20px 0;
+.main-text-box p, .main-text-fullpage p{
+    padding: 20px 0;
+}
+
+.main-text-fullpage{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: normal;
+    color: rgb(20, 20, 20);
+}
 }
