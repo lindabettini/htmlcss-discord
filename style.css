@@ -49,7 +49,7 @@ img{
 }
  
 .bg-gray{
-    background-color: #F1F1F1;
+    background-color: #f1f1f1;
 }
 
 .w20{
@@ -121,7 +121,7 @@ a.dark-btn:hover{
     vertical-align: middle;
 }
 
-header .container{
+header{
     background-color: rgb(37,94,233);
 }
 
@@ -145,9 +145,6 @@ header .container{
 
 .jumbotron{
     position: relative;
-}
-
-.jumbotron .container{
     height: 500px;
     background-image: url(img/jumbo.png);
     background-position: bottom;
@@ -192,19 +189,11 @@ main h2 {
     color:rgb(41,40,65);
 } 
  main p {
-     font-size: 18px;
-     line-height: 1.8rem;
-     color: rgb(28,27,41);
+    font-size: 18px;
+    line-height: 1.8rem;
+    color: rgb(28,27,41);
  }
 
-/* .main-text-fullpage{
-    width: 80%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    line-height: normal;
-    color: rgb(20, 20, 20);
-}
 
 #adventure{
     height: 50px;
@@ -218,4 +207,4 @@ main h2 {
 #adventure h3{
     font-size: 25px;
     padding: 30px;
-} */
+} 
