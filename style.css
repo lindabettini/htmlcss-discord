@@ -162,13 +162,13 @@ header{
 }
 
 .jumbotron .header-text h1{
-    font-size: 40px;
+    font-size: 42px;
 }
 
 .jumbotron .header-text p{
-    margin: 40px 0;
-    line-height: 25px;
-    font-size: 18px;
+    margin: 35px 0;
+    line-height: 30px;
+    font-size: 20px;
 }
 
 .jumbotron a{
@@ -194,7 +194,7 @@ main h2 {
     color: rgb(28,27,41);
  }
 
-
+/* DA SISTEMARE QUA PERCHE CON QUESTO BG ANNULLO IL GRIGIO */
 #adventure{
     height: 50px;
     background-image: url(img/stars.svg);
@@ -207,4 +207,5 @@ main h2 {
 #adventure h3{
     font-size: 25px;
     padding: 30px;
+    color: rgb(41,40,65);
 } 
