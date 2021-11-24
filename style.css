@@ -1,211 +1,261 @@
 /* Generics */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+body {
+  font-family: "Whitney", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
 
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }
 
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 18px;
+}
 /* Utilities */
 
-.float{
-    float: left;
+.float {
+  float: left;
 }
 
-.clearfix::after{
-    display: table;
-    content: '';
-    clear: both;
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.row{
-    max-width: 1000px;
-    margin: 0px auto;    
+.row {
+  max-width: 1000px;
+  margin: 0px auto;
 }
 
-.p-50{
-    padding: 50px 0;
+.p-50 {
+  padding: 50px 0;
 }
 
-.p-50-50{
-    padding: 50px;
+.p-50-50 {
+  padding: 50px;
 }
 
-.pos-relative{
-    position: relative;
-}
- 
-.bg-gray{
-    background-color: #f1f1f1;
+.pos-relative {
+  position: relative;
 }
 
-.w20{
-    width: 20%;
+.bg-gray {
+  background-color: #f1f1f1;
 }
 
-.w40{
-    width: 40%;
+.w18 {
+  width: calc(75% / 4);
 }
 
-.w60{
-    width: 60%;
+.w20 {
+  width: 20%;
 }
 
-.text-center{
-    text-align: center;
+.w25 {
+  width: 25%;
 }
 
+.w40 {
+  width: 40%;
+}
+
+.w60 {
+  width: 60%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
 
 /* Button's Utilities  */
 
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-a:hover{
-    color: darkblue;
+a:hover {
+  color: rgb(58, 58, 230);
 }
 
-.small-btn{
-    padding: 5px 12px;
-    border-radius: 16px;
-    display: inline;
+.small-btn {
+  padding: 5px 12px;
+  border-radius: 16px;
+  display: inline;
 }
 
-.large-btn{
-    padding: 10px 15px;
-    border-radius: 20px;
-    display: inline;
+.large-btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline;
 }
 
-a.light-btn{
-    background-color: white;
+a.large-btn {
+  font-size: 18px;
 }
 
-.lightblue-btn{
-    background-color: rgb(142,161,225);
-    color:white;
+a.light-btn {
+  background-color: white;
 }
 
-a.dark-btn{
-    background-color: rgb(20, 20, 20);
-    color: white;
+.lightblue-btn {
+  background-color: rgb(142, 161, 225);
+  color: white;
 }
 
-a.dark-btn:hover{
-    color:darkblue;
+a.dark-btn {
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
+a.dark-btn:hover {
+  color: darkblue;
 }
 
 /* TOP Header */
 
-.top-bar{
-    height: 60px;
-    line-height: 60px;
+.top-bar {
+  height: 60px;
+  line-height: 60px;
 }
 
-.top-bar .logo{
-    vertical-align: middle;
+.top-bar a {
+  font-size: 18px;
 }
 
-header{
-    background-color: rgb(37,94,233);
+.top-bar .logo {
+  vertical-align: middle;
+}
+
+header {
+  background-color: rgb(37, 94, 233);
 }
 
 /* Top-Header's NAV */
 
-.top-bar nav li{
-    display: inline;
-    margin: 0 10px;
+.top-bar nav li {
+  display: inline;
+  margin: 0 10px;
 }
 
-.top-bar nav li a{
-    text-decoration: none;
-    color: white;
+.top-bar nav li a {
+  text-decoration: none;
+  color: white;
 }
 
-.top-bar nav li a:hover{
-    text-decoration: underline;
+.top-bar nav li a:hover {
+  text-decoration: underline;
 }
 
 /* Jumbotron  */
 
-.jumbotron{
-    position: relative;
-    height: 500px;
-    background-image: url(img/jumbo.png);
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
+.jumbotron {
+  position: relative;
+  height: 500px;
+  background-image: url(img/jumbo.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.jumbotron .header-text{
-    width: 45%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+.jumbotron .header-text {
+  width: 45%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
-.jumbotron .header-text h1{
-    font-size: 42px;
+.jumbotron .header-text h1 {
+  font-size: 42px;
 }
 
-.jumbotron .header-text p{
-    margin: 35px 0;
-    line-height: 30px;
-    font-size: 20px;
+.jumbotron .header-text p {
+  margin: 35px 0;
+  line-height: 30px;
+  font-size: 20px;
 }
 
-.jumbotron a{
-    margin: 0 10px;
+.jumbotron a {
+  margin: 0 10px;
 }
-
 
 /* MAIN  */
 
-main section{
-    margin-top: 50px;
-    margin-bottom: 50px;
-} 
- 
-main h2 {
-    font-size: 40px;
-    margin: 30px 0;
-    color:rgb(41,40,65);
-} 
- main p {
-    font-size: 18px;
-    line-height: 1.8rem;
-    color: rgb(28,27,41);
- }
-
-/* DA SISTEMARE QUA PERCHE CON QUESTO BG ANNULLO IL GRIGIO */
-#adventure{
-    height: 50px;
-    background-image: url(img/stars.svg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
-    text-align: center;
+main section {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-#adventure h3{
-    font-size: 25px;
-    padding: 30px;
-    color: rgb(41,40,65);
-} 
+main h2 {
+  margin: 30px 0;
+  color: rgb(41, 40, 65);
+}
+
+main p {
+  font-size: 18px;
+  line-height: 1.8rem;
+  color: rgb(28, 27, 41);
+}
+
+#adventure {
+  height: 50px;
+  background-image: url(img/stars.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+#adventure h3 {
+  padding: 30px;
+  color: rgb(41, 40, 65);
+}
+
+/* FOOTER */
+
+footer {
+  padding: 50px 100px;
+  background-color: rgb(35, 39, 42);
+}
+
+footer h3,
+h4 {
+  color: rgb(103, 123, 194);
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 50px;
+}
+
+footer li {
+  padding: 5px 0;
+  color: white;
+}
