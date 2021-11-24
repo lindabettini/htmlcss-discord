@@ -132,12 +132,12 @@ a.light-btn {
 }
 
 a.dark-btn {
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(35, 39, 42);
   color: white;
 }
 
 a.dark-btn:hover {
-  color: darkblue;
+  color: rgb(58, 58, 230);
 }
 
 /* TOP Header */
@@ -254,6 +254,25 @@ h4 {
   color: rgb(103, 123, 194);
 }
 
+footer #lang {
+  display: inline;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+
+footer #lang img {
+  height: 15px;
+  vertical-align: middle;
+}
+
+#lang .lang-txt {
+  display: inline;
+  vertical-align: middle;
+}
+
+/* Footer Lists  */
+
 footer .links-list ul {
   list-style-type: none;
   padding-left: 50px;
@@ -272,6 +291,8 @@ footer .links-list li a {
 footer .links-list li a:hover {
   text-decoration: underline;
 }
+
+/* Footer Bottom  */
 
 #footer-bottom {
   width: 100%;
