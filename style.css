@@ -95,6 +95,15 @@ h4 {
   text-align: right;
 }
 
+svg.wave {
+  color: #f1f1f1;
+  margin-bottom: -10px;
+}
+
+.upside-down {
+  transform: rotateX(0.5turn);
+}
+
 /* Button's Utilities  */
 
 a {
@@ -275,7 +284,7 @@ footer #lang img {
   color: white;
   font-weight: 900;
   padding-right: 25px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* Footer Lists  */
